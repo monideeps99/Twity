@@ -20,7 +20,7 @@ Copy the values for consumer key, consumer secret, access token, and access secr
 
 Edit your ~/.profile file and add a new alias:
 
-    alias twitter='ruby /your/path/command-line-twitter-client.rb'
+    alias twitter='ruby /path/twity.rb'
 
 Reload your ~/.profile:
 
