@@ -6,8 +6,8 @@ require 'colored'
 client = TwitterOAuth::Client.new(
 	:consumer_key 	 => '1BEVbKvxv2cX6w6posWwA',
 	:consumer_secret => 'RZeXx0Ku1jGtgUrIuRwPQjAOKwuBylURBgZR0M6QW1A',
-	:token 			 => '1397992878-JN1J9sD4z7QmjjWvCjLobPpO9nsPv4w99I7CiIv',
-	:secret 	     => 'KaS1AuXl5cTrys5gbqzsi0RSzGDrh33dxpoYAAMed8')
+	:token 		 => '1397992878-JN1J9sD4z7QmjjWvCjLobPpO9nsPv4w99I7CiIv',
+	:secret 	 => 'KaS1AuXl5cTrys5gbqzsi0RSzGDrh33dxpoYAAMed8')
 
 case ARGV[0]
 
