@@ -29,31 +29,31 @@ Reload your ~/.profile:
 ### Usage
 type 'twity' to see all available usage options
 
-twity -timeline
+	twity -timeline
 
 Returns the 20 most recent statuses from non-protected users
 
-twity -tweets
+	twity -tweets
 
 Returns the 20 most recent statuses, including retweets, posted by the user
 
-twity -update "I'm tweeting from the command line"
+	twity -update "I'm tweeting from the command line"
 
 Post a new tweet
 
-twity -list-followers
+	twity -list-followers
 
 Returns the list of followers
 
-twity -message @deep_cs "Your message"
+	twity -message @deep_cs "Your message"
 
 Sends a new direct message to the specified user
 
-twity -list-messages
+	twity -list-messages
 
 Return the most recent direct messages sent to your
 
-twity -sent-messages
+	 twity -sent-messages
 
 returns a list of the 20 most recent direct messages sent by the authenticating user.
 
